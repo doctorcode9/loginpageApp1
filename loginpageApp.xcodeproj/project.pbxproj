@@ -29,9 +29,22 @@
 		FAD16EA52CFCD17E00E22B97 /* loginpageAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loginpageAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FAB707D52D04C3D900DF333D /* Exceptions for "loginpageApp" folder in "loginpageApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = FAD16E882CFCD17900E22B97 /* loginpageApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		FAD16E8B2CFCD17900E22B97 /* loginpageApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FAB707D52D04C3D900DF333D /* Exceptions for "loginpageApp" folder in "loginpageApp" target */,
+			);
 			path = loginpageApp;
 			sourceTree = "<group>";
 		};
